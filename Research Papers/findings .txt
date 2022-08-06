@@ -1,0 +1,6 @@
+4 stages of the process of QA system according to Mahoshada Article
+
+1. Document Summarization
+2. Document Categorization
+3. Question Processing
+4. Answer Processing

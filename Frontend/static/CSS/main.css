@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&display=swap');
+
+body, html {
+  /*height: 100%;*/
+  /*margin: 0;*/
+    background-color: #EEF2F9 !important;
+}
+
+.home-body{
+
+}
+
+/*CSS for the Navigation*/
+#logo-icon{
+    /*padding-top: 20px;*/
+    /*margin-right: -90px;*/
+    margin-right: 20px;
+
+}
+.nd-wrap{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.logo-title{
+    /*padding-top: 30px;*/
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Cabin', sans-serif;
+}
+
+.logo-title-first{
+    color: #000065;
+}
+
+.logo-title-second{
+    color: #326DFF;
+}
+#nav-container{
+    /*box-shadow: 0px 3px 20px #000D5F1A;*/
+    background-color: #FFFFFF;
+}
+.navigation{
+    font-family: 'Cabin', sans-serif;
+    max-height: 100px;
+    background-color: white !important;
+    box-shadow: 0px 3px 20px #000D5F1A;
+}
+.nav-links{
+    text-align: right;
+}
+#nav_link{
+    font-size: 20px;
+    text-align: right;
+}
+
+/*CSS for the body content*/
+.main-body{
+    margin: 0px !important;
+    padding: 0px !important;
+
+}
+.main-content{
+    top: 25%;
+    left: 50%;
+    /*background-image: url("../Images/background.jpg");*/
+    /*background-color: #EEF2F9;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 84vh;
+    background-size: cover;
+    /*opacity:40%;*/
+}
+#main-content-ga{
+
+    height: 68vh !important;
+}
+.main-section{
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 5px 25px #0000000D;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 20px;
+    padding-top: 30px;
+
+}
+#main-content-home{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#main-content-generate-answer{
+    /*position: absolute;*/
+    margin-top: 8.5%;
+    margin-bottom: 8.5%;
+}
+h1{
+    /*padding-top: 100px;*/
+
+    text-align: center;
+    /*{#color: #087CFC !important;#}*/
+}
+.home-content{
+    text-align: center;
+    font-family: "Calibri Light";
+    font-size: 20px;
+    min-height: 200px;
+    font-weight: 700;
+}
+
+/*CSS for the form section*/
+
+.form-section{
+    margin-top: 50px;
+}
+.form-section form{
+    padding-bottom: 60px;
+}
+#form-grp{
+    width: 100%;
+}
+#txt-area{
+    margin-bottom: 50px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.form-text-area{
+    display: flex;
+}
+.form-text-area a{
+    margin-top: 60px;
+}
+
+.submit-btn{
+    font-family: 'Cabin', sans-serif;
+    border: none;
+    background-color: #326DFF;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 50px;
+
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    color: white !important;
+    text-decoration: none !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    margin: auto;
+    display: flex;
+}
+
+/*CSS for the help page*/
+#main-body-help{
+    padding-bottom:1200px !important;
+}
+#main-section-help{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+#main-section-help h1{
+    padding-bottom: 50px;
+}
+.help-step-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.help-img{
+    /*border: 2px solid black;*/
+    width: 50%;
+}
+
+.help-img img{
+    width:100%;
+
+}
+.help-description{
+    width: 50%;
+    height: 100%;
+    /*vertical-align: middle;*/
+
+}
+#help-step1 .help-description, #help-step3 .help-description{
+    padding-left: 30px;
+}
+#help-step2 .help-description{
+    padding-right: 30px;
+}
+.help-description h3{
+    color: #000065;
+    /*text-align: center;*/
+}
+
+.help-description p{
+    color: #8492A8;
+}
+
+/*CSS for the Answer.html page*/
+
+.generated-section{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    width:90%;
+    padding-left: 5%;
+}
+
+.display-question{
+    height: 100px;
+}
+
+.answer-section{
+    display: flex;
+    padding-bottom: 50px;
+
+}
+
+.answer-section h4{
+    padding-right: 20px;
+}
+
+.generated-category-section{
+    width: 50%;
+    display: flex;
+}
+
+.generated-answer-section{
+    width:50%;
+    display: flex;
+}
+#form-grp a{
+    text-decoration: none;
+}
+.try-again-btn{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    width: 200px;
+    border: none;
+    background-color: #326DFF;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    color: white !important;
+    text-decoration: none !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: auto;
+}
+
+.display-category {
+    font-weight: 400 !important;
+}
+
+
+/*CSS for the Try again file*/
+
+#main-content-generate-answer h2{
+    text-align: center;
+    padding-bottom:30px;
+}
+
+.try-again{
+    padding-bottom: 40px !important;
+}
+
+
+/*CSS for the footer*/
+
+.footer{
+
+    font-family: 'Cabin', sans-serif;
+    background-color: #000065;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+/*#footer-help{*/
+/*    */
+/*}*/
