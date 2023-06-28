@@ -9,7 +9,7 @@ The solution has an improvement comparing to the related work that has made in t
 <strong>PS:<strong> </br>
 The final product can be access using this link <a href="https://github.com/SHENAL1/Sinhala-Mathematical-Question-Answering-System---FYP/tree/main/Frontend"> Project</a>
 
-The datasets have been divided into 2. One to <a href="https://github.com/SHENAL1/Sinhala-Mathematical-Question-Answering-System---FYP/blob/main/Frontend/Dataset/Label_Questions_Train.csv">train</a> and <a href="https://github.com/SHENAL1/Sinhala-Mathematical-Question-Answering-System---FYP/blob/main/Frontend/Dataset/Label_Questions_Test.csv">test</a> the logistic regresion model which is the question clasification model, the other dataset is to <a href="https://github.com/SHENAL1/Sinhala-Mathematical-Question-Answering-System---FYP/blob/main/Frontend/Dataset/DataSetShuffled.csv">test</a> and  the whole proejct from question classification to answer generation.
+The datasets have been divided into 2. One to <a href="https://github.com/SHENAL1/Sinhala-Mathematical-Question-Answering-System---FYP/blob/main/Frontend/Dataset/Label_Questions_Train.csv">train</a> and <a href="https://github.com/SHENAL1/Sinhala-Mathematical-Question-Answering-System---FYP/blob/main/Frontend/Dataset/Label_Questions_Test.csv">test</a> the logistic regresion model which is the question clasification model, the other dataset is to <a href="https://github.com/SHENAL1/Sinhala-Mathematical-Question-Answering-System---FYP/blob/main/Frontend/Dataset/DataSetShuffled.csv">test</a> and  the whole project from question classification to answer generation.
 
 For any clarification reach out to me <a mailto="shenalanthony99@gmail.com">shenalanthony99@gmail.com</a>
 
